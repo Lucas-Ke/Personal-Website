@@ -27,7 +27,7 @@ img{
     border: 1px red solid;
     box-sizing: border-box;
     width: 50%;
-    height: 50vh;
+    height: 50vh; 
     display: flex;
     justify-content: center;
 }
