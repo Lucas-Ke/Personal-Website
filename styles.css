@@ -3,12 +3,20 @@
 }
 .wall{
     background-color: maroon;
+    background-image: url(pixil-frame-0\ \(1\).png);
+    background-size: contain;
+
 }
 .hole{
     background-color: black;
+    background-image: url(pixil-frame-0\ \(1\).png);
+    background-size: contain;
+
 }
 .floor{
     background-color: gray;
+    background-image: url(pixil-frame-0\ \(1\).png);
+    background-size: contain;
 }
 img{
     max-width: 80%;
@@ -49,6 +57,18 @@ img{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
+.up{
+    background-color: yellow;
+}
+.left{
+    background-color: yellow;
+}
+.right{
+    background-color: yellow;
+}
+.down{
+    background-color: yellow;
+}
 #box{
     border: 1px red solid;
     box-sizing: border-box;
@@ -64,6 +84,6 @@ img{
     height: 100%;
 }
 #box > div{
-    border: 1px red solid;
+    /* border: 1px red solid; */
     box-sizing: border-box;
 }
