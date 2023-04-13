@@ -3,19 +3,19 @@
 }
 .wall{
     background-color: maroon;
-    background-image: url(pixil-frame-0\ \(1\).png);
+    background-image: url(PFstars.png);
     background-size: contain;
 
 }
 .hole{
     background-color: black;
-    background-image: url(pixil-frame-0\ \(1\).png);
+    background-image: url(PFstars.png);
     background-size: contain;
 
 }
 .floor{
     background-color: gray;
-    background-image: url(pixil-frame-0\ \(1\).png);
+    background-image: url(PFstars.png);
     background-size: contain;
 }
 img{
@@ -84,6 +84,6 @@ img{
     height: 100%;
 }
 #box > div{
-    /* border: 1px red solid; */
+    /* border: 1px solid green; */
     box-sizing: border-box;
 }
