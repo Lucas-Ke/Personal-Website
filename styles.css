@@ -1,27 +1,48 @@
 *{
     margin: 0%;
 }
-.wall{
-    background-color: maroon;
+.stars{
     background-image: url(PFstars.png);
     background-size: contain;
-
 }
-.hole{
-    background-color: black;
-    background-image: url(PFstars.png);
+.moonNN{
+    background-image: url(PFcolors.png);
     background-size: contain;
-
 }
-.floor{
-    background-color: gray;
-    background-image: url(PFstars.png);
+.moonNW{
+    background-image: url(PFcube.png);
+    background-size: contain;
+}
+.moonNE{
+    background-image: url(PFmars.png);
+    background-size: contain;
+}
+.moonWW{
+    background-image: url(PFblackhole.png);
+    background-size: contain;
+}
+.moonEE{
+    background-image: url(PFpackman.png);
+    background-size: contain;
+}
+.moonSW{
+    background-image: url(PFring.png);
+    background-size: contain;
+}
+.moonSE{
+    background-image: url(PFrobot.png);
+    background-size: contain;
+}
+.moonSS{
+    background-image: url(PFtarget.png);
     background-size: contain;
 }
 img{
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 3.95vh;
+    max-height: 3.95vh;
+    position: absolute;
 }
+  
 .text{
     border: 1px red solid;
     box-sizing: border-box;
@@ -69,6 +90,9 @@ img{
 .down{
     background-color: yellow;
 }
+.center{
+    background-color: red;
+}
 #box{
     border: 1px red solid;
     box-sizing: border-box;
@@ -86,4 +110,5 @@ img{
 #box > div{
     /* border: 1px solid green; */
     box-sizing: border-box;
+    position: relative;
 }
