@@ -69,22 +69,39 @@ function MoveDown() {
 }
 function SelectPlan() {
     if (local == 17){
-document.getElementById('textbox').innerHTML = 'Welcome To color ';    
+document.getElementById('textbox').innerHTML = 'Here is planet of colors ';
     } else if (local == 25) {
-        document.getElementById('textbox').innerHTML = 'Welcome To color icecubed';    
+        document.getElementById('textbox').innerHTML = 'Here is planet of icecubed';
     } else if (local == 31) {
-        document.getElementById('textbox').innerHTML = 'Welcome to mars';    
+        document.getElementById('textbox').innerHTML = 'Here is planet of mars';
     } else if (local == 57) {
-        document.getElementById('textbox').innerHTML = 'Hello Hello Hello';    
+        document.getElementById('textbox').innerHTML = 'Here is planet of Event Horizen';
     } else if (local == 65) {
-        document.getElementById('textbox').innerHTML = 'Hello Hello Hello';    
+        document.getElementById('textbox').innerHTML = 'Here is planet of Puk-Mine';
     } else if (local == 91) {
-        document.getElementById('textbox').innerHTML = 'Hello Hello Hello';    
+        document.getElementById('textbox').innerHTML = 'Here is planet of Urple Ring';
     } else if (local == 97) {
-        document.getElementById('textbox').innerHTML = 'Hello Hello Hello';    
+        document.getElementById('textbox').innerHTML = 'Here is planet of Robotic Star';
     } else if (local == 105) {
-        document.getElementById('textbox').innerHTML = 'Hello Hello Hello';    
+        document.getElementById('textbox').innerHTML = 'Here is planet of Target Practice';
     } else {
-document.getElementById('textbox').innerHTML = 'Land on a planet first';    
+document.getElementById('textbox').innerHTML = 'Land on a planet first';
     }
+}
+
+let RedButtA = document.querySelector(".RedButtA")
+RedButtA.addEventListener ("click", ()=>{  
+    DisplayA()
+}
+)
+let RedButtB = document.querySelector(".RedButtB")
+RedButtB.addEventListener ("click", ()=>{  
+    DisplayB()
+}
+)
+function DisplayA() {
+    document.getElementById('textbox').innerHTML = 'The "A" button was pressed';
+}
+function DisplayB() {
+    document.getElementById('textbox').innerHTML = 'The "B" button was pressed';
 }

@@ -174,7 +174,7 @@ img{
     position: relative;
 }
 
-.RedButt{
+.RedButtA, .RedButtB{
     background-color: red;
     outline: 10px solid gray;
     border: 3px rgb(29, 177, 34) solid;
