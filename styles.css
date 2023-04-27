@@ -54,7 +54,7 @@ img:not(.A-img>img):not(.B-img>img){
     margin-left: 2vw;
     margin-bottom: 2vh;
     width: 96vw;
-    height: 60vh;
+    height: 55vh;
     outline: 10px solid gray;
     border: 3px rgb(29, 177, 34) solid;
     border-radius: 1px;
@@ -210,4 +210,30 @@ img:not(.A-img>img):not(.B-img>img){
 .B-img>img{
     width: 100%;
     height: 80%;
+}
+
+.BottomThree{
+    display: flex;
+    outline: 10px solid gray;
+    border: 3px rgb(29, 177, 34) solid;
+    border-bottom: 0px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    box-sizing: border-box;
+    width: 60vw;
+    margin-left: 20vw;
+    height: 3vh;
+    margin-top: 2vh;
+}
+.BottomThree>div{
+    border: black 1px solid;
+    box-sizing: border-box;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 77, 77);
+}
+.BottomThree>div:hover{
+    background-color: rgb(96, 96, 96);
 }
