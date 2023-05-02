@@ -1,5 +1,6 @@
 *{
     margin: 0%;
+    cursor: none;
 }
 html{
     background-color: lightgray;
@@ -282,16 +283,17 @@ img:not(.A-img>img):not(.B-img>img){
 }
 .RingLand>div{background-image: none;}
 
-/* #box > .test{
-    width: calc(30vh/11);
-    height: calc(30vh/11);
-    background: red;
-    z-index: 3;
-    position: absolute;
-    animation: mymove 5s ease-out;
+#SStar{
+     width: calc(30vh/11);
+     height: calc(30vh/11);
+     position: absolute;
+     background-image: url(MSstar.png);
+     background-size: cover;
+     z-index: 3;
+     pointer-events: none;
 }
   
-@keyframes mymove {
+/* @keyframes mymove {
     0%   {top: calc(62.5vh); left: calc((30vw - 30vh)/2 + 35vw); background: red;};
     100%   {top: calc(62.5vh); left: calc((30vw - 30vh)/2 + 35vw); background: red;};
 } */

@@ -1,3 +1,11 @@
+document.onmousemove = function (swim) {
+    var x = swim.clientX - 13;
+    var y = swim.clientY - 44;
+    document.getElementById("SStar").style.marginLeft = x + "px";
+    document.getElementById("SStar").style.marginTop = y + "px";
+  };
+
+
 
 let up = document.querySelector(".up")
 up.addEventListener ("click", ()=>{  
