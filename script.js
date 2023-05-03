@@ -1,6 +1,6 @@
 document.onmousemove = function (swim) {
-    var x = swim.clientX - 13;
-    var y = swim.clientY - 44;
+    var x = swim.clientX - 14;
+    var y = swim.clientY - 45;
     document.getElementById("SStar").style.marginLeft = x + "px";
     document.getElementById("SStar").style.marginTop = y + "px";
   };

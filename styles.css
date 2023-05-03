@@ -4,17 +4,18 @@
 }
 html{
     background-color: lightgray;
+    overflow: hidden;
 }
 
 .stars{
     background-image: url(PFstars.png);
     background-size: contain;
 }
-.moonNN{
+.moonP1{
     background-image: url(PFcolors.png);
     background-size: contain;
 }
-.moonNW{
+.moonP2{
     background-image: url(PFcube.png);
     background-size: contain;
 }
@@ -22,15 +23,15 @@ html{
     background-image: url(PFmars.png);
     background-size: contain;
 } */
-.moonWW{
+.moonP3{
     background-image: url(PFblackhole.png);
     background-size: contain;
 }
-.moonEE{
+.moonP5{
     background-image: url(PFpackman.png);
     background-size: contain;
 }
-.moonSW{
+.moonP4{
     background-image: url(PFring.png);
     background-size: contain;
 }
@@ -293,6 +294,16 @@ img:not(.A-img>img):not(.B-img>img){
      pointer-events: none;
 }
   
+.A-img>p{
+    font-size: 10vh;
+    pointer-events: none;
+}
+.B-img>p{
+    font-size: 10vh;
+    pointer-events: none;
+}
+
+
 /* @keyframes mymove {
     0%   {top: calc(62.5vh); left: calc((30vw - 30vh)/2 + 35vw); background: red;};
     100%   {top: calc(62.5vh); left: calc((30vw - 30vh)/2 + 35vw); background: red;};
