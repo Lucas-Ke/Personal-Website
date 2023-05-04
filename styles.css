@@ -65,6 +65,8 @@ img:not(.A-img>img):not(.B-img>img){
     color: lime;
     padding: 4px;
     padding-top: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: auto;
 }
 .botom{
     display: flex;
