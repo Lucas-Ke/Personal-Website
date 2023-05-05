@@ -7,7 +7,7 @@ html{
     overflow: hidden;
 }
 
-.stars{
+.stars, .moon{
     background-image: url(PFstars.png);
     background-size: contain;
 }
@@ -305,8 +305,14 @@ img:not(.A-img>img):not(.B-img>img){
     pointer-events: none;
 }
 
+.trail { 
+    position: absolute;
+    height: 10px; width: 10px;
+    border-radius: 3px;
+    /* background: radial-gradient(white, cyan); */
+    pointer-events: none;
+    background-image: url(MStrail.png);
+    background-position: center;
+    background-size: contain;
+}
 
-/* @keyframes mymove {
-    0%   {top: calc(62.5vh); left: calc((30vw - 30vh)/2 + 35vw); background: red;};
-    100%   {top: calc(62.5vh); left: calc((30vw - 30vh)/2 + 35vw); background: red;};
-} */
