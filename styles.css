@@ -257,31 +257,31 @@ img:not(.A-img>img):not(.B-img>img){
 }
 
 .IceLand{
-    background-image: url(PFcube.png);
+    background-image: url(BOcube.png);
     background-size: cover;
 }
 .IceLand>div{background-image: none;}
 
 .ColorLand{
-    background-image: url(PFcolors.png);
+    background-image: url(BOcolor.png);
     background-size: cover;
 }
 .ColorLand>div{background-image: none;}
 
 .SunLand{
-    background-image: url(PFblackhole.png);
+    background-image: url(BOhole.png);
     background-size: cover;
 }
 .SunLand>div{background-image: none;}
 
 .PacLand{
-    background-image: url(PFpackman.png);
+    background-image: url(BOwaka.png);
     background-size: cover;
 }
 .PacLand>div{background-image: none;}
 
 .RingLand{
-    background-image: url(PFring.png);
+    background-image: url(BOring.png);
     background-size: cover;
 }
 .RingLand>div{background-image: none;}
