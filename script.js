@@ -5,7 +5,7 @@ document.onmousemove = function (swim) {
     document.getElementById("SStar").style.marginTop = y + "px";
   };
 
-
+var hometext = "Home/Welcome";
 
 let up = document.querySelector(".up")
 up.addEventListener ("click", ()=>{  
@@ -79,33 +79,28 @@ function MoveDown() {
 }
 function SelectPlan() {
     if (local == 17){
-        document.getElementById('textbox').innerHTML = 'Here is planet of colors ';
+        document.getElementById('textbox').innerHTML = 'Portfolio';
         document.getElementById('box').classList.add('ColorLand')
         HideShip()
     } else if (local == 46) {
-        document.getElementById('textbox').innerHTML = 'Here is planet of icecubed';
+        document.getElementById('textbox').innerHTML = 'Programing';
         document.getElementById('box').classList.add('IceLand')
         HideShip()
-    // } else if (local == 31) {
-    //     document.getElementById('textbox').innerHTML = 'Here is planet of mars';
     } else if (local == 54) {
-        document.getElementById('textbox').innerHTML = 'Here is planet of Event Horizen';
+        document.getElementById('textbox').innerHTML = 'Personal Projects';
         document.getElementById('box').classList.add('SunLand')
         HideShip()
     } else if (local == 92) {
-        document.getElementById('textbox').innerHTML = 'Here is planet of Urple Ring';
+        document.getElementById('textbox').innerHTML = 'Writting';
         document.getElementById('box').classList.add('RingLand')
         HideShip()
     } else if (local == 96) {
-        document.getElementById('textbox').innerHTML = 'Here is planet of Puk-Mine';
+        document.getElementById('textbox').innerHTML = 'Programing';
         document.getElementById('box').classList.add('PacLand')
         HideShip()
-    // } else if (local == 97) {
-    //     document.getElementById('textbox').innerHTML = 'Here is planet of Robotic Star';
-    // } else if (local == 105) {
-    //     document.getElementById('textbox').innerHTML = 'Here is planet of Target Practice';
+    } else if (ShipStop == 0) {
+      document.getElementById('textbox').innerHTML = '. . .';
     } else {
-document.getElementById('textbox').innerHTML = 'Land on a planet first';
     }
 }
 
@@ -133,11 +128,14 @@ RedButtB.addEventListener ("click", ()=>{
     document.getElementById(area[local]).style.visibility = "visible"
 }
 )
-function DisplayA() {
-    document.getElementById('textbox').innerHTML = 'The "A" button was pressed';
+
+let backbutton = document.querySelector(".B-img")
+backbutton.addEventListener ("click", ()=>{  
+    DisplayB()
 }
+)
 function DisplayB() {
-    document.getElementById('textbox').innerHTML = 'The "B" button was pressed';
+    document.getElementById('textbox').innerHTML = hometext;
 }
 
 var dots = [],
@@ -206,3 +204,48 @@ function animate() {
 // And get it started by calling animate().
 animate();
 
+let resume = document.querySelector(".Resume")
+resume.addEventListener ("click", ()=>{  
+    DisplayRes()
+}
+)
+let contact = document.querySelector(".Contact")
+contact.addEventListener ("click", ()=>{  
+    DisplayCon()
+}
+)
+let home = document.querySelector(".Home")
+home.addEventListener ("click", ()=>{  
+    DisplayHom()
+}
+)
+function DisplayRes(){
+  document.getElementById('textbox').innerHTML = 'Resume';
+  document.getElementById('box').classList.remove('IceLand')
+  document.getElementById('box').classList.remove('ColorLand')
+  document.getElementById('box').classList.remove('SunLand')
+  document.getElementById('box').classList.remove('PacLand')
+  document.getElementById('box').classList.remove('RingLand')
+  ShipStop = 0
+  document.getElementById(area[local]).style.visibility = "visible"
+}
+function DisplayCon(){
+  document.getElementById('textbox').innerHTML = 'Contact';
+  document.getElementById('box').classList.remove('IceLand')
+  document.getElementById('box').classList.remove('ColorLand')
+  document.getElementById('box').classList.remove('SunLand')
+  document.getElementById('box').classList.remove('PacLand')
+  document.getElementById('box').classList.remove('RingLand')
+  ShipStop = 0
+  document.getElementById(area[local]).style.visibility = "visible"
+}
+function DisplayHom(){
+  document.getElementById('textbox').innerHTML = hometext;
+  document.getElementById('box').classList.remove('IceLand')
+  document.getElementById('box').classList.remove('ColorLand')
+  document.getElementById('box').classList.remove('SunLand')
+  document.getElementById('box').classList.remove('PacLand')
+  document.getElementById('box').classList.remove('RingLand')
+  ShipStop = 0
+  document.getElementById(area[local]).style.visibility = "visible"
+}
