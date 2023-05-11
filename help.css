@@ -1,0 +1,16 @@
+/* .trail { 
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: teal;
+  } */
+
+  .trail { 
+    width: calc(28px);
+    height: calc(28px);
+    position: absolute;
+    background-image: url(MSstar.png);
+    background-size: cover;
+    z-index: 3;
+    pointer-events: none;
+ }

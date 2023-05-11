@@ -55,7 +55,7 @@ img:not(.A-img>img):not(.B-img>img){
     margin-left: 2vw;
     margin-bottom: 2vh;
     width: 96vw;
-    height: 55vh;
+    height: 55vh; 
     outline: 10px solid gray;
     border: 3px rgb(29, 177, 34) solid;
     border-radius: 1px;
@@ -291,8 +291,8 @@ img:not(.A-img>img):not(.B-img>img){
 .RingLand>div{background-image: none;}
 
 #SStar{
-     width: calc(30vh/11);
-     height: calc(30vh/11);
+     width: 28px;
+     height: 28px;
      position: absolute;
      background-image: url(MSstar.png);
      background-size: cover;
@@ -328,7 +328,7 @@ img:not(.A-img>img):not(.B-img>img){
     position: relative;
 } */
 
-.image{
+#image{
     margin-top: -3vh;
     display: flex;
     flex-wrap: wrap;
@@ -358,13 +358,21 @@ img:not(.A-img>img):not(.B-img>img){
     background-color: aliceblue;
 }
 
+.downbox {
+    animation: downmove .5s linear;
+}
 .redbox {
-    animation: mymove 5s infinite;
-  }
+    animation: upmove .5s linear;
+}
   
-  @keyframes mymove {
-    from {top: -150px;}
-    50% {top: 100px !important;} /* ignored */
-    to {top: 200px;}
-  }
+@keyframes downmove {
+    from {top: -60vh;}
+    50% {top: -30vh !important;} /* ignored */
+    to {top: 0vh;}
+}
+@keyframes upmove{
+    from {top: 0vh;}
+    50% {top: -37vh !important;} /* ignored */
+    to {top: -75vh;}
+}
   

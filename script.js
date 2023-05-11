@@ -1,8 +1,8 @@
 document.onmousemove = function (swim) {
-    var x = swim.clientX - 14;
-    var y = swim.clientY - 45;
-    document.getElementById("SStar").style.marginLeft = x + "px";
-    document.getElementById("SStar").style.marginTop = y + "px";
+    var x = swim.clientX - 13.5;
+    var y = swim.clientY - 0
+    document.getElementById("SStar").style.marginLeft = x + "px"
+    document.getElementById("SStar").style.marginTop = y + "vh";
   };
 
 var hometext = "Home/Welcome";
@@ -179,8 +179,8 @@ function draw() {
   dots.forEach(function(dot, index, dots) {
     var nextDot = dots[index + 1] || dots[0];
     
-    dot.x = x - 4;
-    dot.y = y - 4;
+    dot.x = x - 4.5;
+    dot.y = y - 4.5;
     dot.draw();
     x += (nextDot.x - dot.x) * .3;
     y += (nextDot.y - dot.y) * .3;
