@@ -290,7 +290,7 @@ img:not(.A-img>img):not(.B-img>img){
 }
 .RingLand>div{background-image: none;}
 
-#SStar{
+.SStar{
      width: 28px;
      height: 28px;
      position: absolute;
@@ -299,7 +299,17 @@ img:not(.A-img>img):not(.B-img>img){
      z-index: 3;
      pointer-events: none;
 }
-  
+
+.trail:hover{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-image: url(MSstar.png);
+    background-size: cover;
+    z-index: 3;
+    pointer-events: none;
+}
+
 .A-img>p{
     font-size: 10vh;
     pointer-events: none;
