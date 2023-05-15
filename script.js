@@ -287,7 +287,7 @@ function DisplayRes(){
   document.getElementById(area[local]).style.visibility = "visible"
 }
 function DisplayCon(){
-  document.getElementById('textbox').innerHTML = 'Contact';
+  document.getElementById('textbox').innerHTML = 'You can contact me through my email “LucasRocks246@gmail.com” or send me a text Through my phone number (559) 593-8637';
   document.getElementById('box').classList.remove('IceLand')
   document.getElementById('box').classList.remove('ColorLand')
   document.getElementById('box').classList.remove('SunLand')

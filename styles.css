@@ -328,6 +328,7 @@ img:not(.A-img>img):not(.B-img>img){
     background-image: url(MSstar.png);
     background-position: right;
     background-size: contain;
+    z-index: 3;
 }
 
 /* .scrollbox{
