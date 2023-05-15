@@ -147,54 +147,54 @@ var dots = [],
 // --------------------------------------------------------------------
 
 
-var Dot = function() {
-  this.x = 0;
-  this.y = 0;
-  this.node = (function(){
-    var g = document.createElement("div");
-    g.className = "SStar";
-    document.body.appendChild(g);
-    return g;
-  }());
-};
-Dot.prototype.draw = function() {
-  this.node.style.left = this.x + "px";
-  this.node.style.top = this.y + "px";
-};
+// var Dot = function() {
+//   this.x = 0;
+//   this.y = 0;
+//   this.node = (function(){
+//     var g = document.createElement("div");
+//     g.className = "SStar";
+//     document.body.appendChild(g);
+//     return g;
+//   }());
+// };
+// Dot.prototype.draw = function() {
+//   this.node.style.left = this.x + "px";
+//   this.node.style.top = this.y + "px";
+// };
 
-for (var i = 0; i < 1; i++) {
-  var d = new Dot();
-  dots.push(d);
-}
+// for (var i = 0; i < 1; i++) {
+//   var d = new Dot();
+//   dots.push(d);
+// }
 
-function draw() {
-  var x = mouse.x,
-      y = mouse.y;
+// function draw() {
+//   var x = mouse.x,
+//    y = mouse.y;
   
-  dots.forEach(function(dot, index, dots) {
-    var nextDot = dots[index + 1] || dots[0];
+//   dots.forEach(function(dot, index, dots) {
+//     var nextDot = dots[index + 1] || dots[0];
     
-    dot.x = x - 4.5;
-    dot.y = y - 4.5;
-    dot.draw();
-    x += (nextDot.x - dot.x) * .3;
-    y += (nextDot.y - dot.y) * .3;
+//     dot.x = x - 4.5;
+//     dot.y = y - 4.5;
+//     dot.draw();
+//     x += (nextDot.x - dot.x) * .3;
+//     y += (nextDot.y - dot.y) * .3;
 
-  });
-}
+//   });
+// }
 
-addEventListener("mousemove", function(event) {
-  //event.preventDefault();
-  mouse.x = event.pageX;
-  mouse.y = event.pageY;
-});
+// addEventListener("mousemove", function(event) {
+//   //event.preventDefault();
+//   mouse.x = event.pageX;
+//   mouse.y = event.pageY;
+// });
 
-function animate() {
-  draw();
-  requestAnimationFrame(animate);
-}
+// function animate() {
+//   draw();
+//   requestAnimationFrame(animate);
+// }
 
-animate();
+// animate();
 
 
 // ---------------------------------------------------------------------------------------

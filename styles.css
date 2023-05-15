@@ -325,8 +325,8 @@ img:not(.A-img>img):not(.B-img>img){
     border-radius: 3px;
     /* background: teal; */
     pointer-events: none;
-    background-image: url(MStrail.png);
-    background-position: center;
+    background-image: url(MSstar.png);
+    background-position: right;
     background-size: contain;
 }
 
