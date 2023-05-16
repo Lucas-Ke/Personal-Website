@@ -376,12 +376,12 @@ img:not(.A-img>img):not(.B-img>img){
     animation: upmove .5s linear;
 }
   
-@keyframes downmove {
+@keyframes upmove {
     from {top: -60vh;}
     50% {top: -30vh !important;} /* ignored */
     to {top: 0vh;}
 }
-@keyframes upmove{
+@keyframes downmove{
     from {top: 0vh;}
     50% {top: -37vh !important;} /* ignored */
     to {top: -75vh;}

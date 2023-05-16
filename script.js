@@ -5,7 +5,7 @@
 //     document.getElementById("SStar").style.marginTop = y + "px";
 //   };
 
-var hometext = "Home/Welcome";
+var hometext = "Welcome To my personal website.My name is Lucas Kersten and I am a student currently enrolled at the high school Clovis High and I participate in an extracurricular activity provided by my school called CART(Center for Advanced Research and Technology). To properly navigate this page press the arrows near the vortex to move around, Press the A button to land on a planet, and Press the B button to exit a planet";
 
 let up = document.querySelector(".up")
 up.addEventListener ("click", ()=>{  
@@ -79,7 +79,7 @@ function MoveDown() {
 }
 function SelectPlan() {
     if (local == 17){
-        document.getElementById('textbox').innerHTML = 'Portfolio';
+        document.getElementById('textbox').innerHTML = 'The portfolio of the stuff that I had worked on before this is but not limited to DelveHomes This portfolio was the first website I made and it shows, it has bad image sizing and spacing, However I have gotten better since then. Candyland-Rockyroad This was the latest website I have made which is a digitized game of Candyland with 0-4 players';
         document.getElementById('box').classList.add('ColorLand')
         HideShip()
     } else if (local == 46) {
@@ -144,63 +144,6 @@ var dots = [],
       y: 0
     };
 
-// --------------------------------------------------------------------
-
-
-// var Dot = function() {
-//   this.x = 0;
-//   this.y = 0;
-//   this.node = (function(){
-//     var g = document.createElement("div");
-//     g.className = "SStar";
-//     document.body.appendChild(g);
-//     return g;
-//   }());
-// };
-// Dot.prototype.draw = function() {
-//   this.node.style.left = this.x + "px";
-//   this.node.style.top = this.y + "px";
-// };
-
-// for (var i = 0; i < 1; i++) {
-//   var d = new Dot();
-//   dots.push(d);
-// }
-
-// function draw() {
-//   var x = mouse.x,
-//    y = mouse.y;
-  
-//   dots.forEach(function(dot, index, dots) {
-//     var nextDot = dots[index + 1] || dots[0];
-    
-//     dot.x = x - 4.5;
-//     dot.y = y - 4.5;
-//     dot.draw();
-//     x += (nextDot.x - dot.x) * .3;
-//     y += (nextDot.y - dot.y) * .3;
-
-//   });
-// }
-
-// addEventListener("mousemove", function(event) {
-//   //event.preventDefault();
-//   mouse.x = event.pageX;
-//   mouse.y = event.pageY;
-// });
-
-// function animate() {
-//   draw();
-//   requestAnimationFrame(animate);
-// }
-
-// animate();
-
-
-// ---------------------------------------------------------------------------------------
-
-
-// The Dot object used to scaffold the dots
 var Dot = function() {
   this.x = 0;
   this.y = 0;
@@ -211,27 +154,21 @@ var Dot = function() {
     return n;
   }());
 };
-// The Dot.prototype.draw() method sets the position of 
-  // the object's <div> node
+
 Dot.prototype.draw = function() {
   this.node.style.left = this.x + "px";
   this.node.style.top = this.y + "px";
 };
 
-// Creates the Dot objects, populates the dots array
 for (var i = 0; i < 10; i++) {
   var d = new Dot();
   dots.push(d);
 }
 
-// This is the screen redraw function
 function draw() {
-  // Make sure the mouse position is set everytime
-    // draw() is called.
   var x = mouse.x,
       y = mouse.y;
   
-  // This loop is where all the 90s magic happens
   dots.forEach(function(dot, index, dots) {
     var nextDot = dots[index + 1] || dots[0];
     
@@ -245,19 +182,15 @@ function draw() {
 }
 
 addEventListener("mousemove", function(event) {
-  //event.preventDefault();
   mouse.x = event.pageX;
   mouse.y = event.pageY;
 });
 
-// animate() calls draw() then recursively calls itself
-  // everytime the screen repaints via requestAnimationFrame().
 function animate() {
   draw();
   requestAnimationFrame(animate);
 }
 
-// And get it started by calling animate().
 animate();
 
 
