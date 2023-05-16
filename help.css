@@ -1,16 +1,52 @@
-/* .trail { 
-    position: absolute;
-    height: 6px; width: 6px;
-    border-radius: 3px;
-    background: teal;
-  } */
+*{
+  margin: 0%;
+}
 
-  .trail { 
-    width: calc(28px);
-    height: calc(28px);
-    position: absolute;
-    background-image: url(MSstar.png);
-    background-size: cover;
-    z-index: 3;
-    pointer-events: none;
- }
+.carousel-inner{
+  display: flex;
+}
+
+#one-box{
+  background-image: url(BOcolor.png);
+  width: 30vw;
+  height: 30vw;
+  background-size: cover;
+  position: relative;
+}
+
+#two-box{
+  background-image: url(BOcube.png);
+  width: 30vw;
+  height: 30vw;
+  background-size: cover;
+  position: relative;
+}
+
+.center{
+  background-color: aquamarine;
+  width: 30vw;
+  height: 30vw;
+  background-size: cover;
+  position: relative;
+}
+
+.one--move {
+  animation: one--move .5s linear;
+}
+
+@keyframes one--move{
+  from {left: 0vw;}
+  50% {left: 15vw !important;}
+  to {left: 30vw;}
+}
+
+.two--move {
+  animation: two--move .5s linear;
+}
+
+@keyframes two--move{
+  from {left: 0vw;}
+  50% {left: 15vw !important;}
+  to {left: 30vw;}
+}
+
