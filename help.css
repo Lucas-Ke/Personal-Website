@@ -1,17 +1,27 @@
 *{
   margin: 0%;
+  
 }
 
 .carousel-inner{
   display: flex;
+  border: 1px red solid;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  width: 30vw;
+  height: 30vw;
 }
+
 
 #one-box{
   background-image: url(BOcolor.png);
   width: 30vw;
   height: 30vw;
   background-size: cover;
-  position: relative;
+  position: absolute;
+  margin-left: -30vw;
+
 }
 
 #two-box{
@@ -19,7 +29,8 @@
   width: 30vw;
   height: 30vw;
   background-size: cover;
-  position: relative;
+  position: absolute;
+  margin-left: 0vw;
 }
 
 .center{
@@ -28,6 +39,7 @@
   height: 30vw;
   background-size: cover;
   position: relative;
+  margin-left: 60vw;
 }
 
 .one--move {

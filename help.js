@@ -5,7 +5,7 @@ var wait = 0
 
 for (let i = 0; i == wait;){
   wait = 1
-  setTimeout(Moved, 3000)
+  // setTimeout(Moved, 3000)
   setTimeout(rewait, 3000)
 }  
 

@@ -239,3 +239,42 @@ function DisplayHom(){
   ShipStop = 0
   document.getElementById(area[local]).style.visibility = "visible"
 }
+
+const images = ['url(BOcube.png)', 'url(BOcolor.png)', 'url(BOhole.png)']
+var image2 = 1
+var image1 = 2
+var wait = 0
+
+setInterval(Moved, 3000);
+
+function Moved() {
+  document.getElementById('one-box').classList.add('one--move')
+  document.getElementById('two-box').classList.add('two--move')
+  if (image2 >= 3){
+    image2 = 0
+  }
+  if (image1 >= 3){
+    image1 = 0
+  }
+  setTimeout (Return, 485)
+}
+
+function Return() {
+  console.log('hello')
+  document.getElementById('one-box').classList.remove('one--move')
+  document.getElementById('two-box').classList.remove('two--move')
+  document.getElementById("one-box").style.backgroundImage=images[image1]
+  document.getElementById("two-box").style.backgroundImage=images[image2]
+  image2 += 1
+  image1 += 1  
+}
+
+function downbox() {
+  document.getElementById('one-box').classList.remove('upbox')
+  document.getElementById('one-box').classList.add('downbox')
+}
+
+function upbox() {
+  document.getElementById('one-box').classList.remove('downbox')
+  document.getElementById('one-box').classList.add('upbox')
+}
