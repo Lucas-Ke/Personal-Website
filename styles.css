@@ -370,6 +370,11 @@ img:not(.A-img>img):not(.B-img>img){
     box-sizing: border-box;
     background-color: aliceblue;
 }
+.carousel-inner{
+    background-image: url(BOhole.png);
+    background-size: cover;
+    border: 3px rgb(177, 29, 29) solid;
+}
 
 /* .downbox {
     animation: downmove .5s linear;
@@ -443,8 +448,8 @@ img:not(.A-img>img):not(.B-img>img){
   } */
 
   .RedButtA, .RedButtB{
-    background-color: rgb(0, 255, 55);    
-    /* background-color: red; */
+    /* background-color: rgb(0, 255, 55);     */
+    background-color: red;
     outline: 10px solid gray;
     border: 3px rgb(29, 177, 34) solid;
     border-radius: 100px;

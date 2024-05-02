@@ -278,3 +278,4 @@ function upbox() {
   document.getElementById('one-box').classList.remove('downbox')
   document.getElementById('one-box').classList.add('upbox')
 }
+
