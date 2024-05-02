@@ -204,8 +204,7 @@ img:not(.A-img>img):not(.B-img>img){
 }
 
 .RedButtA, .RedButtB{
-    /* background-color: red; */
-    background-color: rgb(37, 245, 158);
+    background-color: red;
     outline: 10px solid gray;
     border: 3px rgb(29, 177, 34) solid;
     border-radius: 100px;
