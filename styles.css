@@ -376,7 +376,6 @@ img:not(.A-img>img):not(.B-img>img){
     background-image: url(ME.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 50%;
     max-width: 100%;
     max-height: 100%;
     min-width: 100%;
