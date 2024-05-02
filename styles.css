@@ -371,7 +371,7 @@ img:not(.A-img>img):not(.B-img>img){
     background-color: aliceblue;
 }
 
-.downbox {
+/* .downbox {
     animation: downmove .5s linear;
 }
 .upbox {
@@ -380,15 +380,15 @@ img:not(.A-img>img):not(.B-img>img){
   
 @keyframes downmove {
     from {top: -60vh;}
-    50% {top: -30vh !important;} /* ignored */
+    50% {top: -30vh !important;} 
     to {top: 0vh;}
 }
 @keyframes upmove{
     from {top: 0vh;}
-    50% {top: -37vh !important;} /* ignored */
+    50% {top: -37vh !important;} 
     to {top: -75vh;}
 }
-/*   
+  
 .carousel-inner{
     display: flex;
     overflow: hidden;
@@ -400,7 +400,7 @@ img:not(.A-img>img):not(.B-img>img){
   
   
   #one-box{
-    background-image: url(BOcolor.png);
+    background-image: url(ME.png);
     width: calc(40vw - 5px);
     height: calc(45vh - 4px);
     background-size: contain;
@@ -443,8 +443,8 @@ img:not(.A-img>img):not(.B-img>img){
   } */
 
   .RedButtA, .RedButtB{
-    /* background-color: rgb(0, 255, 55);     */
-    background-color: red;
+    background-color: rgb(0, 255, 55);    
+    /* background-color: red; */
     outline: 10px solid gray;
     border: 3px rgb(29, 177, 34) solid;
     border-radius: 100px;
