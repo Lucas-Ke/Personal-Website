@@ -202,14 +202,15 @@ img:not(.A-img>img):not(.B-img>img){
     margin-top: 2.5vh;
     position: relative;
 }
-
+/* 
 .RedButtA, .RedButtB{
+    background-color: rgb(0, 255, 55);    
     background-color: red;
     outline: 10px solid gray;
     border: 3px rgb(29, 177, 34) solid;
     border-radius: 100px;
     box-sizing: border-box;    
-}
+} */
 
 .A-img{
     display: flex;
@@ -268,7 +269,7 @@ img:not(.A-img>img):not(.B-img>img){
 .IceLand>div{background-image: none;}
 
 .ColorLand{
-    background-image: url(ME.png);
+    background-image: url(BOcolor.png);
     background-size: cover;
 }
 .ColorLand>div{background-image: none;}
@@ -399,7 +400,7 @@ img:not(.A-img>img):not(.B-img>img){
   
   
   #one-box{
-    background-image: url(ME.png);
+    background-image: url(BOcolor.png);
     width: calc(40vw - 5px);
     height: calc(45vh - 4px);
     background-size: contain;
@@ -441,3 +442,12 @@ img:not(.A-img>img):not(.B-img>img){
     to {left: calc(40vw);}
   }
   
+  .RedButtA, .RedButtB{
+    background-color: rgb(0, 255, 55);    
+    /* background-color: red; */
+    outline: 10px solid gray;
+    border: 3px rgb(29, 177, 34) solid;
+    border-radius: 100px;
+    box-sizing: border-box;    
+}
+
