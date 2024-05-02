@@ -388,7 +388,7 @@ img:not(.A-img>img):not(.B-img>img){
     50% {top: -37vh !important;} /* ignored */
     to {top: -75vh;}
 }
-  
+/*   
 .carousel-inner{
     display: flex;
     overflow: hidden;
@@ -440,11 +440,11 @@ img:not(.A-img>img):not(.B-img>img){
     from {left: 0vw;}
     50% {left: 20vw !important;}
     to {left: calc(40vw);}
-  }
-  
+  } */
+
   .RedButtA, .RedButtB{
-    background-color: rgb(0, 255, 55);    
-    /* background-color: red; */
+    /* background-color: rgb(0, 255, 55);     */
+    background-color: red;
     outline: 10px solid gray;
     border: 3px rgb(29, 177, 34) solid;
     border-radius: 100px;
