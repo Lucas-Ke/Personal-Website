@@ -424,7 +424,7 @@ img:not(.A-img>img):not(.B-img>img){
   }
   
   #two-box{
-    background-image: url(BOcube.png);
+    background-image: url(MEold.png);
     width: calc(40vw - 5px);
     height: calc(45vh - 4px);
     background-size: contain;
@@ -456,8 +456,8 @@ img:not(.A-img>img):not(.B-img>img){
   }
 
   .RedButtA, .RedButtB{
-    /* background-color: rgb(0, 255, 55);     */
-    background-color: red;
+    background-color: rgb(0, 255, 55);    
+    /* background-color: red; */
     outline: 10px solid gray;
     border: 3px rgb(29, 177, 34) solid;
     border-radius: 100px;
