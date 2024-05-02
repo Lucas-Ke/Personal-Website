@@ -399,7 +399,7 @@ img:not(.A-img>img):not(.B-img>img){
   
   
   #one-box{
-    background-image: url(BOcolor.png);
+    background-image: url(ME.png);
     width: calc(40vw - 5px);
     height: calc(45vh - 4px);
     background-size: contain;
