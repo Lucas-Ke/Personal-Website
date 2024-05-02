@@ -1,4 +1,4 @@
-const images = ['url(ME.png)', 'url(BOcolor.png)', 'url(BOhole.png)']
+const images = ['url(BOcube.png)', 'url(ME.png)', 'url(BOhole.png)']
 var image2 = 1
 var image1 = 2
 var wait = 0

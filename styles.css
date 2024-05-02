@@ -268,7 +268,7 @@ img:not(.A-img>img):not(.B-img>img){
 .IceLand>div{background-image: none;}
 
 .ColorLand{
-    background-image: url(BOcolor.png);
+    background-image: url(ME.png);
     background-size: cover;
 }
 .ColorLand>div{background-image: none;}
