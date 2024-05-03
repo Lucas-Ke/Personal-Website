@@ -83,19 +83,19 @@ function SelectPlan() {
         document.getElementById('box').classList.add('ColorLand')
         HideShip()
     } else if (local == 46) {
-        document.getElementById('textbox').innerHTML = 'Programing';
+        document.getElementById('textbox').innerHTML = 'At the moment I have gained many skills within CTE courses. The CTE courses that I took were 2 semesters in the Center for Advanced Research and Technologys web application development lab and 2 semesters in the Center for Advanced Research and Technology game design lab. The skills gained in the Center for Advanced Research and Technologys web application development lab include but aren’t limited to experience with CSS, HTML, and javascript. The skills gained in the Center for Advanced Research and Technology game design lab include but are not limited to experience with Piskel, Gdevelop, Blender, and Unreal Engine.';
         document.getElementById('box').classList.add('IceLand')
         HideShip()
     } else if (local == 54) {
-        document.getElementById('textbox').innerHTML = 'Personal Projects';
+        document.getElementById('textbox').innerHTML = 'I have many hobbies that I like to indulge in but the one I am most active in is playing video games. These games include genres such as roguelikes, puzzle, platformer, and multiplayer. Some roguelike games that I like to play are “Have a Nice Death,” “Enter the Gungeon,” and “Hades.” Some puzzle games that I like to play are “Portal 2,” “Totally Accurate Battle Simulator,“ and “Inscryption.” Some platformer games I like to play are “Mario,” “Kirby,” and “Celeste.” Some Multiplayer games I like to play are “Super Smash Bros Ultimate,” “Terraria,” and “Minecraft.”';
         document.getElementById('box').classList.add('SunLand')
         HideShip()
     } else if (local == 92) {
-        document.getElementById('textbox').innerHTML = 'Writting';
+        document.getElementById('textbox').innerHTML = 'I have made various artwork for the games I participated in making. This artwork includes the pixel art for “Jurassic Wild Hearts" and some of the 3-D modeling for “Three Nights at Grendels.” For “Jurassic Wild Hearts” I used Piskel to make the sprites for the humanoid dinosaurs that you try to date. For “Three Nights at Grendels.” I used Blender to make a model for a cake, a dragons cave, a barn with a silo, a portal for monsters to come out of, and five growth stages of a plant.';
         document.getElementById('box').classList.add('RingLand')
         HideShip()
     } else if (local == 96) {
-        document.getElementById('textbox').innerHTML = 'Programing';
+        document.getElementById('textbox').innerHTML = 'You can contact me through my email “LucasRocks246@gmail.com,” send me a text thorough my phone number (559) 593-8637, or thorough my Linked-in page, (https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit)';
         document.getElementById('box').classList.add('PacLand')
         HideShip()
     } else if (ShipStop == 0) {
