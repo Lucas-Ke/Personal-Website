@@ -79,7 +79,7 @@ function MoveDown() {
 }
 function SelectPlan() {
     if (local == 17){
-        document.getElementById('textbox').innerHTML = 'The portfolio of the stuff that I had worked on before this is but not limited to DelveHomes This portfolio was the first website I made and it shows, it has bad image sizing and spacing, However I have gotten better since then. Candyland-Rockyroad This was the latest website I have made which is a digitized game of Candyland with 0-4 players';
+        document.getElementById('textbox').innerHTML = 'The portfolio of the stuff that I had worked on before is but not limited to <br> <b>DelveHomes</b> This portfolio was the first website I made and it shows, it has bad image sizing and spacing, However I have gotten better since then. <br> <b>Candyland-Rockyroad</b> This is a digitized game of Candyland with 0-4 players <br> <b>Jurassic Wild Hearts</b> This is a game I made with two other teammates and its a dinosaur dating simulator based off of the novel “Jurassic Park.”<br> <b>Three Nights at Grendels</b> This is a game I made with two other teammates and its based off of the “Five Nights at Freddys” series of games and the poem “Beowulf”';
         document.getElementById('box').classList.add('ColorLand')
         HideShip()
     } else if (local == 46) {
